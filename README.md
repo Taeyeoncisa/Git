@@ -16,17 +16,11 @@
 
   - 文件拷贝
 
-  <img src="/Users/anita/Library/Application Support/typora-user-images/image-20220217112346684.png" alt="image-20220217112346684" style="zoom:50%;" />
-
   - 本地文件管理：本机只保留一个文件（最新文件），其余文件通过工具存档
 
   - 集中式版本控制（SVN）
 
-    <img src="/Users/anita/Library/Application Support/typora-user-images/image-20220217112509760.png" alt="image-20220217112509760" style="zoom:50%;" />
-
   - 分布式版本控制
-
-  <img src="/Users/anita/Library/Application Support/typora-user-images/image-20220217113328363.png" alt="image-20220217113328363" style="zoom:50%;" />
 
 - 软件
 
@@ -42,13 +36,7 @@ SSH是一种比较可靠的专为远程登录会话和其他网络服务提供�
 
 - `git init` 从头开始，在文件夹中创建 git 库，让git管理其文件夹
 
-![image-20220220154307786](/Users/anita/Library/Application Support/typora-user-images/image-20220220154307786.png)
-
-![image-20220220154416746](/Users/anita/Library/Application Support/typora-user-images/image-20220220154416746.png)
-
 - `git status`查看管理状态
-
-![image-20220220154821374](/Users/anita/Library/Application Support/typora-user-images/image-20220220154821374.png)
 
 - 执行 `git add <filename> `将文件纳入管理，filename 支持通配符，最常用的就是点(.)表示所有文件
 
@@ -77,8 +65,6 @@ SSH是一种比较可靠的专为远程登录会话和其他网络服务提供�
 ##### 4.git分支
 
 ![功能分支工作流· Git 指南](https://carney520.gitbooks.io/git-guide/content/branch/images/feature_flow.png)
-
-![git.diff.svg](https://doc.shiyanlou.com/courses/3083/1505711/785632cea774450fa2c6e6c79c354fc9-1)
 
 - 查看分支`git branch`
 - 新建分支`git branch <name>`
